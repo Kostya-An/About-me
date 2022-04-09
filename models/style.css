@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #F9F6F1;
+}
+.navContainer{
+    width: 1117px;
+    height: 79px;
+    display: flex;
+    margin-left: 418px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.typeContainer{
+    width:397px;
+    display: flex;
+    justify-content: space-between;
+}
+.functionContainer{
+    width:189px;
+    display: flex;
+    justify-content: space-between;
+}
+.navButton{
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 3%;
+}
+main{
+    background-color: #F9F6F1;
+}
+.content{
+    width: 1117px;
+    margin-left: 418px;
+}
+.upContent, .downContent{
+    display: flex;
+    justify-content: space-between;
+}
+.upContent{
+    padding-top: 29px;
+}
+.upContent h4{
+    font-weight: normal;
+    font-size: 30px;
+}
+.upContent h3{
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+.downContent{
+    padding-top: 45px;
+}
+.downContent h4{
+    font-weight: bold;
+    font-size: 55px;
+}
+.downContent h3{
+    font-weight: bold;
+    font-size: 42px;
+    color: #D84033;
+}
+.model{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.modelContent{
+    display: inline-block;
+}
+.modelContent p{
+    font-weight: normal;
+    font-size: 18px;
+}
+.modelContent a{
+    margin-top: 25px;
+    display: block;
+    padding: 18px 30px;
+    width: max-content;
+    background-color: #D7B399;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+}
+.modelImg{
+    display: inline-block;
+}
+.freeShiping{
+    background-color: #212121;
+    width: 100%;
+    height: 235px;
+}
+.free{
+    font-weight: bold;
+}
+.freeShiping h4{
+    font-size: 30px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.freeShiping p{
+    font-weight: lighter;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    padding-top: 23px;
+}
+.subscribe{
+    height: 180px;
+}
+.subscribe h2{
+    margin-top: 72px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.subscribe form{
+    display: inline-block;
+}
+.email{
+    display: inline-block;
+    border: 1px solid black;
+    outline: 0;
+    background-color: #F9F6F1;
+    margin-left: 60px;
+    height: 40px;
+    width: 235px;
+    font-weight: lighter;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.subscribeButton{
+    background-color: #D7B399; 
+    color: white;
+    width: 185px;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    margin-left: 41px;
+}
+.table{
+    background-color:#212121;
+    height: 331px;
+}
+table{
+    margin-left: 829px;
+    padding-top: 80px;
+}
+td,th{
+    padding-left: 84px;
+    text-align: left;
+}
+th{
+    font-weight: bold;
+    font-size: 10px;
+    color: white;
+}
+td{
+    font-weight: normal;
+    font-size: 14px;
+    color: #CBCFD4;
+    padding-top: 10px;
+}
+.firstRow{
+    padding-top: 20px;
+}
+.firstCol{
+    padding-left: 0;
+}
+.soc img{
+    display: inline-block;
+}
+.soc h4{
+    display: inline-block;
+    padding-left: 5px;
+    font-weight: normal;
+    font-size: 14px;
+}
+.copy{
+    height: 54px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: flex-end;
+}
+.copy h5{
+    font-weight: normal;
+    font-size: 14px;
+}
+.navButton:hover{
+    color: #7C5A42;
+    cursor: pointer;
+}
+.modelContent a:hover{
+    background-color: #7C5A42;
+    cursor: pointer;
+}
+.subscribeButton:hover{
+    background-color: #7C5A42;
+    cursor: pointer;
+}
+td{
+    color: #F9F6F1;
+    cursor: pointer;
+}
+th{
+    cursor: default;
+}
+.copy h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
