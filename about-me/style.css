@@ -192,8 +192,6 @@ main{
 .videoImg{
     height: 600px;
     margin-top: 57px;
-    background-image: url(./img/videoImg.png);
-    background-size: cover;
 }
 .videoImg img{
     margin: 250px 505px;
