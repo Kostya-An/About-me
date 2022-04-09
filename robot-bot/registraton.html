@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+    <div class="content">
+        <div class="head">
+            <a class="headButton" href="./index.html">Назад</a>
+            <h4 class="header">Заявка на вступление</h4>
+        </div>
+        <form class="form">
+            <div class="name">
+                <input type="text" placeholder="Имя" class="nameElement">
+                <input type="text" placeholder="Фамилия" class="nameElement">
+            </div>
+            <div class="info">
+                <h4 class="polHeader">Ваш пол</h4>
+                <span class="pol"><input type="radio" name="pol" class="pol">
+                М</span>
+                <span class="pol"><input type="radio" name="pol" class="pol">
+                Ж</span>
+                <span class="old"><input type="checkbox" name="old"> Мне есть 18</span>
+                <span class="game">Ваша дисциплина
+                <select name="select" class="gameSelect">
+                    <option selected="selected" class="value1">Minecraft</option>
+                    <option class="value2">FS19</option>
+                    <option class="value3">Garry's mod</option>
+                </select></span>
+                <textarea cols="32" rows="5" placeholder="Дополнительная информация."></textarea>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
