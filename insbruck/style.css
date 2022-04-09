@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.headElement{
+    font-size: 30px;
+    color: #121274;
+    text-decoration: none;
+}
+.head{
+    width: 100%;
+    height: 60px;
+}
+.headContainer{
+    display: flex;
+    width: 60%;
+    height: 60px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.slogan{
+    background-image: url(./img/innsbruck1.png);
+    height: 500px;
+    width: 100%;
+}
+.sloganHeader{
+    padding-top: 250px;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+.content{
+    width: 60%;
+    margin: 0 auto;
+}
+.header{
+    color:#121274;
+    height: 60px;
+    padding-top: 30px;
+}
+.infoNumbers{
+    display: inline-block;
+    vertical-align:top;
+}
+.infoHeader{
+    height: 40px;
+    padding-top: 20px;
+}
+.infoList{
+    list-style: none;
+}
+.listElement::before{
+    content: "✓ ";
+}
+.add{
+    background-image: url(./img/skier.png);
+    background-size: cover;
+    background-position: right;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+.addContent{
+    font-size: 30px;
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+}
+.temperatureImg{
+    border: 2px solid #555555;
+}
+.temperatureContent{
+    color:white;
+    background-color: #555555;
+    width: 100%;
+    text-align: center;
+}
+.numberAndAdd{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.place{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    /* text-align: center; */
+    background-color: #7ebba7;
+    align-items: center;
+    margin-top: 10px;
+}
+.place img{
+    height: 300px;
+}
+.place h2{
+    display: inline-block;
+    /* height: 300px; */
+    margin: 0 auto;
+}
+.table{
+    margin: 20px auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.row{
+    height: 30px;
+}
+.tableHeader{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 2px solid black;
+    margin: 0;
+}
+.tableData{
+    text-align: center;
+    border: 2px solid black;
+    margin: 0;
+}
+.footer{
+    height: 100px;
+    background-color: #7ebba7;
+    width: 100%;
+}
+.notVisibleTable{
+    display: none;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.nvHeaderRow{
+    height: 30px;
+    background-color: #8484a7;
+}
+.nvDataRow{
+    height: 50px;
+    background-color: white;
+}
+.nvTableHeader{
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+}
+.nvTableData{
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+}
+@media (max-width: 1700px) {
+    .place{
+        flex-wrap: wrap;
+        height: 500px;
+        justify-content: center;
+    }
+    .place img{
+        width: 100%;
+        height:min-content;
+    }
+}
+@media (max-width: 800px) {
+    .numberAndAdd{
+        flex-direction: column;
+    }
+    .add{
+        margin: 0 auto;
+    }
+    .place{
+        height: 300px;
+    }
+}
+@media (max-width: 700px) {
+    .headContainer{
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px) {
+    .place{
+        height: 200px;
+    }
+    .table{
+        width: 100%;
+    }
+    .footerContainer{
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    .notVisibleTable{
+        display: table;
+    }
+    .table{
+        display: none;
+    }
+}
