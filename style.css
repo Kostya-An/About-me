@@ -10,7 +10,7 @@ body{
 main{
     background: rgb(63,25,218);
     background: linear-gradient(336deg, rgba(63,25,218,1) 5%, rgba(57,214,218,1) 62%);
-    height: 90vh;
+    height: 88vh;
 }
 main h1{
     font-weight: bold;
@@ -26,12 +26,12 @@ main h1{
     align-items: center;
     width: 60%;
     margin: 50px auto;
+    height: 60vh;
     justify-items: center;
-    height: 600px;
 }
 footer{
     background-color: brown;
-    height: 10vh;
+    height: 12vh;
 }
 .latest{
     grid-column: span 2;
@@ -44,6 +44,7 @@ footer{
     padding: 10px 20px;
     text-align: center;
     transition-duration: 0.2s;
+    width:max-content;
 }
 .mainGrid a:hover{
     transition-duration: 0.5s;
@@ -58,4 +59,9 @@ footer p{
     text-align: center;
     color: white;
     padding-top: 10px;
+}
+@media (max-width: 300px) {
+    .mainGrid{
+        width: 100%;
+    }
 }
