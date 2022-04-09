@@ -1,0 +1,135 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.aboutMe{
+    display: grid;
+    /* grid-template-areas: 
+    "avtoritet go go"
+    "krepost krepost instinkt"
+    "travel new new"; */
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.aboutMeItem{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; 
+}
+.header{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+.line{
+    width: 60%;
+    height: 3px;
+    border: 0;
+    border-radius: 30px;
+    background-color: white;
+    margin: 0 auto;
+}
+.content{
+    font-weight: 200;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+.aboutMeItem{
+    height: 500px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    
+}
+.aboutMeItem:hover{
+    transform: scale(1.01);
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+}
+.aboutMeItem:nth-child(1){
+    background-image: url(./img2/pic01.jpg);
+    background-color: #7ffff4;
+}
+.aboutMeItem:nth-child(2){
+    background-image: url(./img2/pic02.jpg);
+    background-color:#600baf;
+    grid-column: span 2;
+}
+.aboutMeItem:nth-child(3){
+    background-image: url(./img2/pic03.jpg);
+    background-color: #f58585;
+    grid-column: span 2;
+}
+.aboutMeItem:nth-child(4){
+    background-image: url(./img2/pic04.jpg);
+    background-color: #ffe87f;
+}
+.aboutMeItem:nth-child(5){
+    background-image: url(./img2/pic05.jpg);
+    background-color: #7facff;
+}
+.aboutMeItem:nth-child(6){
+    background-image: url(./img2/pic06.jpg);
+    background-color: #60be4d;
+    grid-column: span 2;
+}
+.info{
+    width: 100%;
+    background-color: #101561;
+    
+}
+.infoContainer{
+    width: 60%;
+    margin: 0 auto;
+}
+.infoHeader{
+    margin: 0 auto;
+    text-align: center;
+}
+.headButton{
+    display: block;
+    margin-top: 40px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+}
+.headerContainer{
+    padding: 100px;
+}
+header{
+    background-image: url(./img2/banner.jpg);
+    background-color: #4f4dbe;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply; 
+}
+.headHeader{
+    color: white;
+    padding-bottom: 10px;
+}
+.headContent{
+    color: white;
+    padding-top: 10px;
+}
+.headLine{
+    height: 3px;
+    border: 0;
+    border-radius: 30px;
+    background-color: white;
+}
+.headerContainer p{
+    display: inline-block;
+}
+.headerContainer a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
