@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding: 0;
+}
+.head{
+    height: 100vh;
+    width: 100%;
+    background-color: #d8d4d4;
+}
+.article{
+    background-color: #ffffff;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 44%;
+    margin: 40px auto;
+}
+h2{
+    color: white;
+    background-color: black;
+    position: sticky;
+    top:0;
+}
+.category{
+    text-decoration: underline;
+    display: block;
+    background-color: #ff5e00;
+    color:black;
+}
+p{
+    text-align: left;
+    margin: 20px 25px;
+}
+body{
+    background-color: white;
+}
+.header{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size:150px;
+    animation-name: HeaderAnim;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    top:80px;
+    font-style: bold;
+    width: 80%;
+    margin: 20px auto;
+}
+.headerblack{
+    color: black;
+    opacity: 0.9;
+    top: -440px;
+    left: 40px;
+}
+.headerred{
+    color: rgb(255, 0, 0);
+    opacity: 0.5;
+    position: relative;
+    top: -180px;
+    left: 20px;
+    animation-delay: 0.5s;
+}
+.headerblue{
+    color: #5151a7;
+    opacity: 0.6;
+    /* top: -430px;
+    left: 40px; */
+    animation-delay: 1s;
+}
+.button{
+    /* display: flex; */
+    /* justify-content: center; */
+    display: block;
+    text-align: center;
+    font-style: bold;
+    margin: 0px auto;
+    position: relative;
+    top: -260px;
+    font-size:20px;
+    width: 300px;
+    height: 37px;
+    padding-top: 10px;
+}
+.toupbutton{
+    background-color: black;
+    color: #ffffff;
+    border: 0;
+    border-radius: 10px;
+    height: 20px;
+    padding:10px;
+    position:fixed;
+    right: 50px;
+    bottom: 50px;
+}
+.buttonblack{
+    background-color: black;
+    color: white;
+    top:-390px;
+    text-decoration: none;
+}
+.buttonred{
+    background-color: red;
+    opacity: 0.5;
+    top:10px;
+    left:20px;
+    right:30px;
+    top: -284px;
+}
+.buttonblue{
+    background-color: #5151a7;
+    opacity: 0.5;
+    left:-20px;
+    top: -355px;
+}
+
+@keyframes HeaderAnim{
+    0%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(-30px, 30px);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+
+
+
+
+
+@keyframes TestHeaderAnim{
+    0%{
+        color: black;
+    }
+    20%{
+        color: brown;
+    }
+    40%{
+        color:red;
+    }
+    60%{
+        color: aqua;
+    }
+    80%{
+        color:darkgreen;
+    }
+    100%{
+        color:black;
+    }
+}
