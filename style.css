@@ -42,9 +42,10 @@ footer{
     color: white;
     border-radius: 30px;
     padding: 10px 20px;
-    text-align: center;
+    margin: 0 auto;
     transition-duration: 0.2s;
     width:max-content;
+    display: block;
 }
 .mainGrid a:hover{
     transition-duration: 0.5s;
@@ -60,8 +61,12 @@ footer p{
     color: white;
     padding-top: 10px;
 }
-@media (max-width: 300px) {
+@media (max-width: 500px) {
     .mainGrid{
-        width: 100%;
+        display: block;
+        height: max-content;
+    }
+    .mainGrid a{
+        margin-top: 10px;
     }
 }
